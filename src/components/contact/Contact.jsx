@@ -9,13 +9,14 @@ import emailjs from 'emailjs-com';
 const contact = () => {
 // emailjs setup
 
- const form = useRef();
+ // eslint-disable-next-line react-hooks/rules-of-hooks
+ const Form = useRef();
  const sendEmail = (e) => {
 
 
   e.preventDefault();
 
-  emailjs.sendForm('service_mrb93kn', 'template_5tfmk7e', form.current, '3i2oBmBniv_mnx9jl')
+  emailjs.sendForm('service_mrb93kn', 'template_5tfmk7e', Form.current, '3i2oBmBniv_mnx9jl')
   
   e.target.reset();
   
@@ -48,7 +49,7 @@ const contact = () => {
         </div>
 
      
-        <form ref={form} onSubmit={sendEmail}>
+        <form ref={Form} onSubmit={sendEmail}>
           <input type="text" name="name" placeholder="Your Full Name" required />
           <input type="email" name="email" placeholder="Your Email"  required/>
           <textarea name="message" rows="7" placeholder="Send me a message :D" reaquired></textarea>

@@ -8,9 +8,9 @@ const HeaderSocials = () => {
     <div className='header_socials'>
 
         {/* target=_blank to open it in a new tab */}
-        <a href="https://linkedin.com" target="_blank"><BsLinkedin/></a>
-        <a href="https://github.com" target="_blank"><BsGithub/></a>
-        <a href="https://facebook.com" target="_blank"><BsFacebook/></a>
+        <a href="https://linkedin.com" target="blank"><BsLinkedin/></a>
+        <a href="https://github.com" target="blank"><BsGithub/></a>
+        <a href="https://facebook.com" target="blank"><BsFacebook/></a>
 
     </div>
   )
