@@ -1,0 +1,179 @@
+header {
+  height: 100%;
+  
+  padding-top: 7rem;
+  overflow: hidden;
+  background-image: url(../../assets/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.header_container {
+  text-align: center;
+  height: 69%;
+  position: relative;
+  
+  
+;
+}
+/* ////////////////cta buttons///////////////////////// */
+.cta {
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+/* //////////////// Header Socials, Linkedin and co///////////////////////// */
+
+.split-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+
+}
+.split-header >  div {
+  display: flex;  
+  
+  flex-direction: column;
+  margin-top: 3rem;
+  gap: 1rem;
+  
+  
+ 
+  
+
+
+}
+
+.div-header {
+  
+ 
+
+ 
+ width: 80%;
+ margin-left: 2rem;
+  
+}
+.header_socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  position: absolute;
+  left: 0;
+  bottom: 3rem;
+}
+
+.header_socials::after {
+
+  width: 1px;
+  height: 2rem;
+  background: var(--color-primary);
+}
+
+/* //////////////// ME ///////////////////////// */
+
+/* .meme{
+    margin-top: 0 !important;
+    width: 60rem !important;
+
+    
+} */
+
+.me {
+  background: linear-gradient(var(--color-bg-variant), transparent);
+  contain: content;
+  
+  width: 35rem;
+  height: 30rem;
+
+  left: auto;
+  margin-top: 4rem;
+ 
+  
+  padding-top: 1rem;
+}
+/* ////////////////scroll down///////////////////////// */
+
+.scroll_down {
+  position: absolute;
+  right: -2.3rem;
+  bottom: 5rem;
+  transform: rotate(90deg);
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+/* ////////////////Media Qeries (Medium Devices)//////////////////////////// */
+@media screen and (max-width: 1024px) {
+  .me {
+    margin-top: 10rem;
+    display: flex;
+   
+  }
+  
+  .split-header {
+
+    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+  
+    
+  
+  }
+
+ 
+}
+
+/* ////////////////Media Qeries (small Devices)//////////////////////////// */
+@media screen and (max-width: 600px) {
+  
+  .header_socials,
+  .scroll_down {
+    display: none;
+    
+  }
+  .me {
+    width: 20rem;
+    height: 15rem;
+    left: calc(
+      50% - 10rem
+    ); /* half of width of the screen and startp picture there -11 rem*/
+  }
+  
+  .split-header {
+
+    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    
+  
+    
+  
+  }
+  .div-header {
+     margin-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+  
+    
+  
+  
+    margin-left: 10px ;
+  } 
+
+  .header_container > h1{
+    font-size: 2rem;
+  
+  }
+}
