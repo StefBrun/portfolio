@@ -6,7 +6,7 @@
 }
 
 .service {
-    background: var(--color-bg-variant);
+    
     padding: 2rem 1rem;
     border-radius: 1rem;
     border: 1px solid transparent;
@@ -20,7 +20,7 @@
 }
 
 .service h2:hover {
-    background: linear-gradient(black, var(--color-primary));
+    background: linear-gradient(var(--color-bg-variant), var(--color-red));;
     border-color: var(--color-primary);
     cursor: pointer;
   
@@ -41,10 +41,10 @@
 
 }
 .service__head:hover{
-    background: linear-gradient(var(--color-primary), var(--color-primary));
+    background: linear-gradient(var(--color-darkgreen), var(--color-red));
     border-color: var(--color-primary);
     cursor: pointer;
-      box-shadow: inset 100px 0 0 0 #0f0f0f;
+      box-shadow: inset 100px 0 0 0 var(--color-bg-variant);
   color: white;
 
 }

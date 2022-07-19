@@ -11,15 +11,14 @@ const header = () => {
       <div className="container header_container">
         <h5>Hello I am </h5>
         <h1>Stefano Brunialti</h1>
-        <h5 className="text-light">Fullstack Developer</h5>
+        <h1 className="dev">Fullstack Developer</h1>
 
         <CTA />
         <HeaderSocials />
 
         <div className="split-header">
           <div className="div-header">
-            <h3> Welcome <br />
-             Happy you are here</h3>
+            <h1> Welcome <br /> </h1>
 
             <h3>
               {" "}

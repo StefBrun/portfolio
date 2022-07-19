@@ -19,19 +19,19 @@ nav a{
     padding: 0.9rem;
     border-radius: 0.4rem;
     display: flex;
-    color: green;
+    color: var(--color-white);
     font-size: 1.5rem;
 
 }   
 
 nav a:hover{
     background-color: black;
-    color: greenyellow;
+    color: var(--color-bg-variant);
 
 
   
 border-radius: 1.5rem;   
-    color: var(--color-primary);
+ ;
 }
 
 nav a.active {

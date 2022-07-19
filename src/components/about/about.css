@@ -46,7 +46,7 @@
 }
 
 .about__card:hover{
-    background: linear-gradient(var(--color-bg-variant), var(--color-primary));
+    background: linear-gradient(var(--color-bg-variant), var(--color-red));
     border-color: var(--color-primary);
     cursor: pointer;
 
@@ -54,14 +54,14 @@
 
 
 .about__icon {
-    color: var(--color-primary);
+    color: var(--color-blue);
     font-size: 1.4rem;
     margin-bottom: 1rem;
 }
 
 .about__card h5{
     font-size: 0.7 rem;
-    color: var(--color-primary);
+    color: var(--color-blue);
 }
 
 .about__content p {

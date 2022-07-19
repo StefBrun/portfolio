@@ -5,14 +5,19 @@ header {
   overflow: hidden;
   background-image: url(../../assets/background.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   
+}
+
+.dev{
+  color: var(--color-bg);
 }
 
 .header_container {
   text-align: center;
   height: 69%;
   position: relative;
+
   
   
 ;
@@ -56,6 +61,7 @@ header {
  
  width: 80%;
  margin-left: 2rem;
+ color: var(--color-white);
   
 }
 .header_socials {
@@ -66,6 +72,8 @@ header {
   position: absolute;
   left: 0;
   bottom: 3rem;
+
+  
 }
 
 .header_socials::after {

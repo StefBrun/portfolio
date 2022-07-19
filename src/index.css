@@ -17,12 +17,15 @@ Find it at the body*/
 
 /* define all the colors we are going to use during all the project  */
 :root {
-    --color-bg: #2f2f2f;
-    --color-bg-variant:#2c2c6c;
-    --color-primary: #41707b;
-    --color-primary-variant: rgba(152, 196, 228, 0.4);
-    --color-white: rgb(231, 231, 231);
-    --color-light: rgba(10, 10, 10, 0.6);
+    --color-bg: #ffffff;
+    --color-bg-variant:#112025;
+    --color-primary: #183158;
+    --color-primary-variant: rgba(0, 0, 0, 0.4);
+    --color-white: rgb(255, 255, 255);
+    --color-light: rgba(7, 7, 7, 0.6);
+    --color-blue: #89D8DA;
+      --color-red: #612E35;
+      --color-darkgreen: #171A21;
     
     --transition: all 400ms ease;
 
@@ -108,7 +111,7 @@ a:hover {
 .btn {
    width: max-content;
    display: inline-block;   /* to make it inline-block */
-   background: rgba(255, 255, 255, 0.67);
+   background: var(--color-bg);
    color: var(--color-primary);     
    padding: 0.75rem 1.2rem; /* padding */  
    border-radius: 0.4rem; /* border-radius */   
@@ -119,8 +122,8 @@ a:hover {
 }
 
 .btn:hover{
-    background: var(--color-white);
-    color: var(--color-bg);
+    background: var(--color-bg-variant);
+    color: var(--color-blue);
     border-color: transparent;
 
 }

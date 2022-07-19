@@ -15,8 +15,7 @@
 .portfolio__item:hover {
   
     border-color: var(--color-primary-variant);
-    background: linear-gradient(black, var(--color-primary));
-
+    background: linear-gradient(var(--color-bg-variant), var(--color-red));
     cursor: pointer;
 }
 
