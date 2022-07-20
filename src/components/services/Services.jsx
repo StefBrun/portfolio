@@ -5,7 +5,7 @@ import { AiOutlineCheck } from "react-icons/ai";
 const Services = () => {
   return (
     <section id="services">
-      <h5></h5>
+      <h5>Services</h5>
       <h2>What else I can offer</h2>
       <div className="container services__container">
         <article className="service">
