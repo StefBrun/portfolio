@@ -44,7 +44,7 @@
     background: linear-gradient(var(--color-darkgreen), var(--color-red));
     border-color: var(--color-primary);
     cursor: pointer;
-      box-shadow: inset 100px 0 0 0 var(--color-bg-variant);
+      box-shadow: inset 100px 0 0 0 var(--color-darkgreen);
   color: white;
 
 }

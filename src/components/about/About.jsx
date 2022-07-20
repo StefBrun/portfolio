@@ -23,7 +23,7 @@ const about = () => {
             <article className="about__card">
               <FiAward className="about__icon" />
               <h5>Experiences</h5>
-              <small>Projects</small>
+              <small>4 months intensive coding bootcamp</small>
             </article>
             <article className="about__card">
               <FiUsers className="about__icon" />
@@ -35,15 +35,16 @@ const about = () => {
             <article className="about__card">
               <AiOutlineFolder className="about__icon" />
               <h5>Projects</h5>
-              <small> completed projects</small>
+              <small> no completed projects ATM</small>
             </article>
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam eos
-            debitis, voluptatem quisquam in saepe mollitia incidunt delectus!
-            Cumque ipsa maxime sapiente commodi recusandae mollitia aliquid
-            libero, doloribus ab nobis?
+          As i recently got into coding and i just finished my bootcamp, i don't have to much to show you here but i am looking forward to every project that will be done and everything i can learn from it. 
+          I also enjoy working with people and i enjoy public speaking. During the bootcamp i also got to do a public speaking for impact 8 hours course which was a great experience and recommendable for anyone.
+          
+
+
           </p>
 
           <a href="#contact" className="btn btn-primary">

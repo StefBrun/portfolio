@@ -26,9 +26,9 @@ const header = () => {
             </h3>
             <br />
             <p>
-              I graduated from web development bootcamp by NumericAll and CNFPC.
-              I have a passion for learning and I am always looking to improve
-              my skills and gain new knowledge. <br />
+              I am a fullstack developer with a passion for learniing and improving my skills. I just recently finished a bootcamp where i got to learn many new technologies in a short amount of time.
+              I am currently looking for a job as a front/backend developer.  
+               <br />
               
               <br />I look forward to working with you and helping you build something great.
             </p>

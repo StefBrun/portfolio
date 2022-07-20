@@ -5,40 +5,40 @@ import { AiOutlineCheck } from "react-icons/ai";
 const Services = () => {
   return (
     <section id="services">
-      <h5>what i can offer</h5>
-      <h2>Services</h2>
+      <h5></h5>
+      <h2>What else I can offer</h2>
       <div className="container services__container">
         <article className="service">
           <div className="service__head">
-            <h3>Ui/UX design</h3>
+            <h3>Language Skills</h3>
           </div>
 
           <ul className="service__list">
             <li>
               <AiOutlineCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor </p>
+              <p> Luxembourgish </p>
             </li>
             <li>
               <AiOutlineCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor </p>
+              <p> Frensh </p>
             </li>
             <li>
               <AiOutlineCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor </p>
+              <p> German </p>
             </li>
             <li>
               <AiOutlineCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor </p>
+              <p> English </p>
             </li>
             <li>
               <AiOutlineCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor </p>
+              <p> Portuguese </p>
             </li>
             <li>
               <AiOutlineCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor </p>
+              <p> Spanish </p>
             </li>
-        
+         
           </ul>
         </article>
 
