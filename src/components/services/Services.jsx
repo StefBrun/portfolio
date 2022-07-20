@@ -20,7 +20,7 @@ const Services = () => {
             </li>
             <li>
               <AiOutlineCheck className="service__list-icon" />
-              <p> Frensh </p>
+              <p> French </p>
             </li>
             <li>
               <AiOutlineCheck className="service__list-icon" />
